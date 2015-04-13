@@ -22,3 +22,9 @@ https://github.com/rubygems/rubygems.org/issues/725
 
 <b>Project Plan:</b>
 
+* Create a new web UI for the adoption of gems with the framework rails
+* This app must be connected with the rubygems.org API for manage the sessions of the users and the gems
+* Advertise when a gem is looking for owners: When the gem owner sets 'looking for maintainers' to be true then an 'adoption' record is associated with the gem which also includes the user's id and the date. When a gem has an associated adoption record then the gem's page will show that it is 'up for adoption' and there will be an interface for an authenticated rubygems.org user to make an 'adoption request'
+* Creating/approving/rejecting a gem ownership request: When an adoption request is made then the gem owners are notified of it and they may respond either via email, rubygems.org, or a gem command. When an adoption request is approved then the requestor is added as an owner and the requestor is notified and the gem's adoption record status is set to 'no longer up for adoption' (other requests may still be outstanding). When an adoption request is denied
+Then the requestor is notified, preferably with a nice message. Given a gem is 'up for adoption' then it can be found via search of some sort and/or listed on an 'up for adoption' page whether or not the searching/viewing user is logged in or not this may be a separate app that pulls in data over the rubygems.org API
+* A gem owner may generate a badge to place in the gem's repository, linking to rubygems.org: probably also add copy about this process to RubyGems guide somewhere and under the RubyGems GitHub org.
