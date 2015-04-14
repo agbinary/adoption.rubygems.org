@@ -26,15 +26,16 @@ https://github.com/rubygems/rubygems.org/issues/725
 3. Develop the functionality and make the view for make a request of adoption
 4. Develop the functionality and make the view for up the adoption of a gem
 5. Develop an authentication view
-6. Make the connection with the rubygems.org API for manage the sessions of the users and the gems
-7. When a gem is up for adoption make the record of the adoption and change the status on the views
-8. Develop the function of send e-mails for notify the requesters and maintainers
-9. When a request save the records and send notification to the actual maintainer
-10. Develop and admin page to the actual maintainer for accept request of possible adoptants
-11. When a requestor is accepted change the status of the gem
-12. Notify to the adoptants his responses 
-13. Make a badge in the github repo linking to the site of the adoption
-14. Make the documentation of the app
+6. Develop a gems view
+7. Make the connection with the rubygems.org API for manage the sessions of the users and the gems
+8. When a gem is up for adoption make the record of the adoption and change the status on the views
+9. Develop the function of send e-mails for notify the requesters and maintainers
+10. When a request save the records and send notification to the actual maintainer
+11. Develop and admin page to the actual maintainer for accept request of possible adoptants
+12. When a requestor is accepted change the status of the gem
+13. Notify to the adoptants his responses 
+14. Make a badge in the github repo linking to the site of the adoption
+15. Make the documentation of the app
 
 
 ![Diagrama](https://slack-files.com/files-tmb/T03DP9847-F04D28AAK-3fba283415/adoptionrubygems_org__1__1024.png)
