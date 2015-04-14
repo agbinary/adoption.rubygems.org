@@ -36,5 +36,57 @@ https://github.com/rubygems/rubygems.org/issues/725
 13. Make a badge in the github repo linking to the site of the adoption
 14. Make the documentation of the app
 
+<b>Timeline:</b>
+
+
+            LOGIC
+            
+<b>Gems</b>
+
+List gems available for adoption ___                  2 days
+
+Order gem list by criteria (Recent, older) ___       2 days
+
+Filter gems by search criteria (Name) ___            3 days
+
+Show gem information ___                             2 days
+
+<b>Users</b>
+
+Login and logout (Using RubyGems API) ___            2 weeks
+
+List user gems ___                                   2 days
+
+Mark/Unmark a gem for adoption ___                   3 days
+
+List adoption requests ___                           2 days
+
+Accept/reject gem adoption request ___               3 days
+
+Send adoption request ___                            2 days
+
+Notify by email of a new adoption request ___        1 week
+
+Notify by email the adoption request status   
+
+(accepted  or rejected)
+
+            VIEWS
+Landing page ___                                     1 week
+
+Search page ___                                      1 week
+
+Gem page ___                                         4 days
+
+Login page ___                                       3 days
+
+User dashboard ___                                   1 week
+
+            OTHER
+            
+Deploy to Heroku ___                                 1 week
+
+Write documentation ___                              1 week
+
 
 ![Diagrama](https://slack-files.com/files-tmb/T03DP9847-F04D28AAK-3fba283415/adoptionrubygems_org__1__1024.png)
