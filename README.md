@@ -19,6 +19,7 @@ https://groups.google.com/forum/#!msg/rubygems-org/niS5ZO9DNgk/5Fhg9Q3QR7YJ
 http://www.benjaminfleischer.com/2014/08/17/rubygems-adoption-center/
 https://github.com/rubygems/rubygems.org/issues/725
 
+
 <b>Project Plan:</b>
 
 1. Create a new web UI for the adoption of gems with the framework rails
@@ -35,6 +36,7 @@ https://github.com/rubygems/rubygems.org/issues/725
 12. Notify to the adoptants his responses 
 13. Make a badge in the github repo linking to the site of the adoption
 14. Make the documentation of the app
+
 
 <b>Timeline:</b>
 
